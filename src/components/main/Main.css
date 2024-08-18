@@ -1,0 +1,117 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%
+}
+.intro{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+
+}
+.welcome{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    height: 105px;
+}
+.inp{
+    width: 860px;
+    height: 59px;
+    padding: 10px 20px;
+    background-color: #f0f4f9;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width: 860px;
+    margin: 15px;
+}
+.enter{
+    height: 39px;
+    width: 698px;
+    padding: 8px;
+    background-color: #f0f4f9;
+    border: none;
+    font-size: 18px;
+    cursor: text;
+    
+}
+.icon{
+    height: 24px;
+    width: 24opx;
+    cursor: pointer;
+}
+.text{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.hello{
+    width: 900px;
+    font-size: 56px;
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    -webkit-background-clip: text;
+    font-size: 56px;
+    -webkit-text-fill-color: transparent;
+}
+.greet{
+    width: 900px;
+    font-size: 56px;
+    color: #c4c7c5;
+}
+.card-container{
+    width: 900px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.card{
+    background-color:#f0f4f9;
+    border-radius: 10px;
+    padding: 15px;
+    width: 213px;
+    color: #585858;
+    position: relative;
+    font-size: 17px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.image{
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
