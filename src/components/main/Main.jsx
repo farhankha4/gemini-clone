@@ -7,8 +7,8 @@ function Main(){
     {
         <div className="main">
             <div className='intro'>
-                    <p>Gemini</p>
-                    <img className='user-icon' src={assets.my_icon} alt="user-icon"/>
+                    <p style={{cursor:'pointer'}}>Gemini</p>
+                    <img style={{cursor:'pointer'}} className='user-icon' src={assets.my_icon} alt="user-icon"/>
             </div>
             <div className="center">
                 <div className="welcome">

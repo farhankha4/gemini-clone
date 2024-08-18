@@ -57,6 +57,10 @@
     cursor: text;
     
 }
+.enter:focus {
+    outline: none; 
+    border: none;  
+}
 .icon{
     height: 24px;
     width: 24opx;
@@ -97,6 +101,10 @@
     color: #585858;
     position: relative;
     font-size: 17px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #e6eaf1;;
 }
 .center{
     display: flex;
